@@ -2,46 +2,65 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Let's discover **Kel in less than 5 minutes**.
 
 ## Getting Started
 
-Get started by **creating a new site**.
+Kel is your AI assitant in your CLI. 
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## What you'll need
 
-### What you'll need
+- Python3 or above
+- respective LLM's API keys
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## How to get started?
 
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
+Clone `kel` repo to your local.
 
 ```bash
-npm init docusaurus@latest my-website classic
+pip3 install -r requirements
+```
+
+```bash
+python3 app.py -h
 ```
 
 You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
 
-## Start your site
+## Configuration
 
-Run the development server:
+The heart of `kel` is your `config.toml`. 
+
+`config.toml` holds all your personal settings, style, LLM to use, and more.
+
+## API Keys
+
+Configure your LLM's API keys in your operating system's environment variables.
 
 ```bash
-cd my-website
-npm run start
+export OPENAI_API_KEY="sk-...AbyZ"
 ```
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+## Hello, World!
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+Once the API key and `config.toml` is configured; invoke the AI from your CLI.
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+```bash
+# set an alias in your bash profile
+alias kel="python3 /path/to/kel-repo"
+```
+```bash
+source ~/.bash_profile
+```
+```bash
+kel "git command to rebase"
+```
+
+By default, your AI assistant is an expert in software engineering field. To use it for general purposes add the `-p` flag.
+
+```bash
+kel "Hello, What's the population of New York?" -p "You are a demography expert"
+```

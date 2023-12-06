@@ -8,8 +8,16 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        With AI capabilities in CLI, you can automate repetitive tasks, enhance productivity, and make your CLI more intelligent and efficient.
+      </>
+    ),
+  },
+  {
+    title: 'Multiple LLM support',
+    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    description: (
+      <>
+        Supports OpenAI LLMs and Assistant model. Anthropic support is coming soon.
       </>
     ),
   },
@@ -18,8 +26,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Upload your file to your assistant and chat with your artifacts.
       </>
     ),
   },
@@ -28,18 +35,25 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Bring OpenAI key and start using Kel. Other LLMs support is coming soon.
       </>
     ),
   },
   {
-    title: 'Bring your own API key',
+    title: 'Free and Open Source',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Absolutely free and open source. You can contribute to Kel on GitHub.
+      </>
+    ),
+  },
+  {
+    title: 'Looking for support?',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+        Contact us for a support plan.
       </>
     ),
   },
