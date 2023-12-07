@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'AI in your CLI',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/undraw_command-line.svg').default,
     description: (
       <>
         With AI capabilities in CLI, you can automate repetitive tasks, enhance productivity, and make your CLI more intelligent and efficient.
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'Multiple LLM support',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/undraw_rocket.svg').default,
     description: (
       <>
         Supports OpenAI LLMs and Assistant model. Anthropic support is coming soon.
@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: 'Chat with your artifacts',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/undraw_chat.svg').default,
     description: (
       <>
         Upload your file to your assistant and chat with your artifacts.
@@ -32,7 +32,7 @@ const FeatureList = [
   },
   {
     title: 'Bring your own API key',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/undraw_note.svg').default,
     description: (
       <>
         Bring OpenAI key and start using Kel. Other LLMs support is coming soon.
@@ -41,7 +41,7 @@ const FeatureList = [
   },
   {
     title: 'Free and Open Source',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/undraw_smiley-face.svg').default,
     description: (
       <>
         Absolutely free and open source. You can contribute to Kel on GitHub.
@@ -50,7 +50,7 @@ const FeatureList = [
   },
   {
     title: 'Looking for support?',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/undraw_person.svg').default,
     description: (
       <>
         Contact us for a support plan.
