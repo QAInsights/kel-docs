@@ -6,6 +6,8 @@ sidebar_position: 2
 
 `kel` supports OpenAI assistant feature where you can summon your assistant by uploading a file and ask questions about your document.
 
+> OpenAI assistant pricing is available [here](https://openai.com/pricing/).
+
 Here is [how it works](https://platform.openai.com/docs/assistants/overview).
 
 ```toml title="config.toml"

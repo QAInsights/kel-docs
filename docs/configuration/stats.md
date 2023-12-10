@@ -15,6 +15,7 @@ display_tokens = true
 display_response_time = true
 ```
 
-- `display_cost`: Specifies whether to display the cost statistics.
+- `display_cost`: Specifies whether to display the cost statistics. 
+    - This setting only works for OpenAI.
 - `display_tokens`: Specifies whether to display the token statistics.
 - `display_response_time`: Specifies whether to display the response time statistics.

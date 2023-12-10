@@ -8,6 +8,8 @@ You can configure the default model to use, prompts, maximum tokens, and more in
 
 By default it is configured to help in software engineering and command line tools.
 
+> OpenAI pricing is available [here](https://openai.com/pricing/).
+
 ```toml title="config.toml"
 [openai]
 default_openai_model_name = "gpt-3.5-turbo-1106"

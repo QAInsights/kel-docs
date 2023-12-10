@@ -13,4 +13,4 @@ The following are the known issues at this moment.
 
 ## Limitations
 
-- Pricing estimates might not be accurate. Please refer your OpenAI usage in your OpenAI account.
+- Pricing estimates might not be accurate. Please refer your respective usage dashboard for accurate details.
