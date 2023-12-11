@@ -25,7 +25,8 @@ Kel is your AI assitant in your CLI.
 Clone `kel` repo to your local.
 
 ```bash
-python3 setup.py install
+cd kel
+pip install .
 ```
 You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
 
