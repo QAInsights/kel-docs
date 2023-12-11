@@ -17,7 +17,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_rocket.svg').default,
     description: (
       <>
-        Supports OpenAI LLMs and Assistant model. Anthropic support is coming soon.
+        Supports OpenAI, Anthropic, and Ollama LLMs and OpenAI Assistants.
       </>
     ),
   },
@@ -35,7 +35,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_note.svg').default,
     description: (
       <>
-        Bring OpenAI key and start using Kel. Other LLMs support is coming soon.
+        Bring OpenAI/Anthropic key and start using Kel. Other LLMs support is coming soon.
       </>
     ),
   },
