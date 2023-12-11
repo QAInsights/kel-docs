@@ -32,8 +32,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`${siteConfig.title} - AI Assistant in your CLI.`}
+      description="Kel - AI assistant in your CLI. OpenAI, Anthropic, and more.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

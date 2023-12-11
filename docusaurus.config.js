@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Kel',
   tagline: 'Ask anything, get answers from your CLI.',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.svg',
 
   // Set the production url of your site here
   url: 'https://kel.qainsights.com',
@@ -98,8 +98,8 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/qainsights',
+                label: 'X',
+                href: 'https://x.com/qainsights',
               },
             ],
           },
