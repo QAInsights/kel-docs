@@ -8,7 +8,8 @@ Let's discover **Kel in less than 5 minutes**.
 
 ## Demo
 
-<a href="https://asciinema.org/a/626190" target="_blank"><img src="https://asciinema.org/a/626190.svg" /></a>
+![Kel-Demo](../static/img/kel-demo.gif)
+
 
 ## Getting Started
 
